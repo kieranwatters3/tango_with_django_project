@@ -4,7 +4,9 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("<a href='/rango/about/'>About</a> Rango says hey there partner!")
+
+    context_dict = {"boldmessage": "Crunchy, creamy, cooky, candy, cupcake!"}
+    return render(request, "rango/index.html", context=context_dict)
 
 
 def about(request):
