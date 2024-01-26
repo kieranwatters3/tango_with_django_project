@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59aebe5a-fce4-4431-83db-29e90fbf1fb3" name="Changes" comment="ch5 complete">
-      <change afterPath="$PROJECT_DIR$/templates/rango/category.html" afterDir="false" />
+    <list default="true" id="59aebe5a-fce4-4431-83db-29e90fbf1fb3" name="Changes" comment="up to ch6 exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/populate_rango.py" beforeDir="false" afterPath="$PROJECT_DIR$/populate_rango.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rango/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rango/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rango/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/rango/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,63 +72,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.tango_with_django_project.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter3.Chapter3IndexPageTests.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter3.Chapter3IndexPageTests.test_for_about_hyperlink.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter3.Chapter3IndexPageTests.test_mappings_exists.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter3.Chapter3IndexPageTests.test_response.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_is_rango_app_configured.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_project_created.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_rango_app_created.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_rango_has_urls_module.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_contains_cat.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_contains_rango.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_contains_required_text.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_starts_with_doctype.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_template_exists.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_uses_template.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.test_about_link_present.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.test_index_starts_with_doctype.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.test_index_uses_context_dictionary.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.test_index_uses_template.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_context_processor_addition.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_does_media_directory_exist.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_does_static_directory_exist.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_static_and_media_configuration.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_rango_templates_directory_exists.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_template_dir_setting.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_template_lookup_path.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_templates_directory_exists.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_templates_exist.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter5.Chapter5AdminInterfaceTests.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests.test_databases_variable_exists.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter5.Chapter5ModelTests.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: rango.tests_chapter5.Chapter5PopulationScriptTests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kiera/OneDrive - University of Glasgow/Computing Science/Level 2/Web App Development/tango_with_django_project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.tango_with_django_project.executor": "Run",
+    "Django tests.Test: rango.tests_chapter3.Chapter3IndexPageTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter3.Chapter3IndexPageTests.test_for_about_hyperlink.executor": "Run",
+    "Django tests.Test: rango.tests_chapter3.Chapter3IndexPageTests.test_mappings_exists.executor": "Run",
+    "Django tests.Test: rango.tests_chapter3.Chapter3IndexPageTests.test_response.executor": "Run",
+    "Django tests.Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_is_rango_app_configured.executor": "Run",
+    "Django tests.Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_project_created.executor": "Run",
+    "Django tests.Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_rango_app_created.executor": "Run",
+    "Django tests.Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_rango_has_urls_module.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_contains_cat.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_contains_rango.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_contains_required_text.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_starts_with_doctype.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_template_exists.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_uses_template.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.test_about_link_present.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.test_index_starts_with_doctype.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.test_index_uses_context_dictionary.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4IndexPageTests.test_index_uses_template.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_context_processor_addition.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_does_media_directory_exist.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_does_static_directory_exist.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_static_and_media_configuration.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_rango_templates_directory_exists.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_template_dir_setting.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_template_lookup_path.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_templates_directory_exists.executor": "Run",
+    "Django tests.Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_templates_exist.executor": "Run",
+    "Django tests.Test: rango.tests_chapter5.Chapter5AdminInterfaceTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests.test_databases_variable_exists.executor": "Run",
+    "Django tests.Test: rango.tests_chapter5.Chapter5ModelTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter5.Chapter5PopulationScriptTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6BadCategoryViewTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6CategoryViewTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6CategoryViewTests.test_for_homepage_link.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6IndexViewTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6IndexViewTests.test_index_categories.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6IndexViewTests.test_index_pages.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6IndexViewTests.test_index_response_titles.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6NoItemsIndexViewTests.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6PopulationScriptTest.executor": "Run",
+    "Django tests.Test: rango.tests_chapter6.Chapter6PopulationScriptTest.test_page_objects_have_views.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/kiera/OneDrive - University of Glasgow/Computing Science/Level 2/Web App Development/tango_with_django_project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Django tests.Test: rango.tests_chapter5.Chapter5PopulationScriptTests">
-    <configuration name="Test: rango.tests_chapter5.Chapter5AdminInterfaceTests" type="DjangoTestsConfigurationType" temporary="true">
+}]]></component>
+  <component name="RunManager" selected="Django tests.Test: rango.tests_chapter6.Chapter6IndexViewTests.test_index_categories">
+    <configuration name="Test: rango.tests_chapter6.Chapter6BadCategoryViewTests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="tango_with_django_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,14 +152,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="rango.tests_chapter5.Chapter5AdminInterfaceTests" />
+      <option name="TARGET" value="rango.tests_chapter6.Chapter6BadCategoryViewTests" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: rango.tests_chapter6.Chapter6CategoryViewTests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="tango_with_django_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,14 +173,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="rango.tests_chapter5.Chapter5DatabaseConfigurationTests" />
+      <option name="TARGET" value="rango.tests_chapter6.Chapter6CategoryViewTests" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests.test_databases_variable_exists" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: rango.tests_chapter6.Chapter6IndexViewTests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="tango_with_django_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,14 +194,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="rango.tests_chapter5.Chapter5DatabaseConfigurationTests.test_databases_variable_exists" />
+      <option name="TARGET" value="rango.tests_chapter6.Chapter6IndexViewTests" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: rango.tests_chapter5.Chapter5ModelTests" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: rango.tests_chapter6.Chapter6IndexViewTests.test_index_categories" type="DjangoTestsConfigurationType" temporary="true">
       <module name="tango_with_django_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,14 +215,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="rango.tests_chapter5.Chapter5ModelTests" />
+      <option name="TARGET" value="rango.tests_chapter6.Chapter6IndexViewTests.test_index_categories" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: rango.tests_chapter5.Chapter5PopulationScriptTests" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: rango.tests_chapter6.Chapter6NoItemsIndexViewTests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="tango_with_django_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,7 +236,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="rango.tests_chapter5.Chapter5PopulationScriptTests" />
+      <option name="TARGET" value="rango.tests_chapter6.Chapter6NoItemsIndexViewTests" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -262,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Django tests.Test: rango.tests_chapter5.Chapter5PopulationScriptTests" />
-        <item itemvalue="Django tests.Test: rango.tests_chapter5.Chapter5AdminInterfaceTests" />
-        <item itemvalue="Django tests.Test: rango.tests_chapter5.Chapter5ModelTests" />
-        <item itemvalue="Django tests.Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests" />
-        <item itemvalue="Django tests.Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests.test_databases_variable_exists" />
+        <item itemvalue="Django tests.Test: rango.tests_chapter6.Chapter6IndexViewTests.test_index_categories" />
+        <item itemvalue="Django tests.Test: rango.tests_chapter6.Chapter6BadCategoryViewTests" />
+        <item itemvalue="Django tests.Test: rango.tests_chapter6.Chapter6CategoryViewTests" />
+        <item itemvalue="Django tests.Test: rango.tests_chapter6.Chapter6NoItemsIndexViewTests" />
+        <item itemvalue="Django tests.Test: rango.tests_chapter6.Chapter6IndexViewTests" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +299,7 @@
       <workItem from="1705672714007" duration="2968000" />
       <workItem from="1705689519486" duration="4781000" />
       <workItem from="1706032224909" duration="10838000" />
-      <workItem from="1706278020062" duration="5457000" />
+      <workItem from="1706278020062" duration="10884000" />
     </task>
     <task id="LOCAL-00001" summary="new branch commit">
       <option name="closed" value="true" />
@@ -380,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706042910014</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="up to ch6 exercises">
+      <option name="closed" value="true" />
+      <created>1706283541499</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706283541499</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +412,8 @@
     <MESSAGE value="ch4 complete few tests not working" />
     <MESSAGE value="ch4 complete" />
     <MESSAGE value="ch5 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch5 complete" />
+    <MESSAGE value="up to ch6 exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="up to ch6 exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -410,21 +428,19 @@
           <line>43</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rango/tests_chapter5.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4IndexPageTests_test_index_uses_template.coverage" NAME="Test: rango.tests_chapter4.Chapter4IndexPageTests.test_index_uses_template Coverage Results" MODIFIED="1706032244110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6IndexViewTests_test_index_pages.coverage" NAME="Test: rango.tests_chapter6.Chapter6IndexViewTests.test_index_pages Coverage Results" MODIFIED="1706290260855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4TemplatesStructureTests_test_template_lookup_path.coverage" NAME="Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_template_lookup_path Coverage Results" MODIFIED="1705691986914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter5_Chapter5AdminInterfaceTests.coverage" NAME="Test: rango.tests_chapter5.Chapter5AdminInterfaceTests Coverage Results" MODIFIED="1706278156698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6BadCategoryViewTests.coverage" NAME="Test: rango.tests_chapter6.Chapter6BadCategoryViewTests Coverage Results" MODIFIED="1706290410117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4IndexPageTests_test_index_starts_with_doctype.coverage" NAME="Test: rango.tests_chapter4.Chapter4IndexPageTests.test_index_starts_with_doctype Coverage Results" MODIFIED="1705692020176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4TemplatesStructureTests.coverage" NAME="Test: rango.tests_chapter4.Chapter4TemplatesStructureTests Coverage Results" MODIFIED="1706034712977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4StaticMediaTests_test_does_static_directory_exist.coverage" NAME="Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_does_static_directory_exist Coverage Results" MODIFIED="1705692038154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6IndexViewTests_test_index_categories.coverage" NAME="Test: rango.tests_chapter6.Chapter6IndexViewTests.test_index_categories Coverage Results" MODIFIED="1706290436250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter3_Chapter3IndexPageTests_test_for_about_hyperlink.coverage" NAME="Test: rango.tests_chapter3.Chapter3IndexPageTests.test_for_about_hyperlink Coverage Results" MODIFIED="1705689967893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter3_Chapter3ProjectStructureTests_test_rango_app_created.coverage" NAME="Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_rango_app_created Coverage Results" MODIFIED="1705689581784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4TemplatesStructureTests_test_rango_templates_directory_exists.coverage" NAME="Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_rango_templates_directory_exists Coverage Results" MODIFIED="1705691961996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -433,8 +449,10 @@
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4StaticMediaTests_test_does_media_directory_exist.coverage" NAME="Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_does_media_directory_exist Coverage Results" MODIFIED="1705693031395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter3_Chapter3IndexPageTests_test_response.coverage" NAME="Test: rango.tests_chapter3.Chapter3IndexPageTests.test_response Coverage Results" MODIFIED="1705689935523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4TemplatesStructureTests_test_templates_directory_exists.coverage" NAME="Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_templates_directory_exists Coverage Results" MODIFIED="1705691956874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6CategoryViewTests_test_for_homepage_link.coverage" NAME="Test: rango.tests_chapter6.Chapter6CategoryViewTests.test_for_homepage_link Coverage Results" MODIFIED="1706288312052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter3_Chapter3ProjectStructureTests_test_is_rango_app_configured.coverage" NAME="Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_is_rango_app_configured Coverage Results" MODIFIED="1705689595466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter5_Chapter5ModelTests.coverage" NAME="Test: rango.tests_chapter5.Chapter5ModelTests Coverage Results" MODIFIED="1706278152672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6CategoryViewTests.coverage" NAME="Test: rango.tests_chapter6.Chapter6CategoryViewTests Coverage Results" MODIFIED="1706290405679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter5_Chapter5DatabaseConfigurationTests_test_databases_variable_exists.coverage" NAME="Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests.test_databases_variable_exists Coverage Results" MODIFIED="1706042858724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4IndexPageTests_test_index_uses_context_dictionary.coverage" NAME="Test: rango.tests_chapter4.Chapter4IndexPageTests.test_index_uses_context_dictionary Coverage Results" MODIFIED="1705692015827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4StaticMediaTests_test_context_processor_addition.coverage" NAME="Test: rango.tests_chapter4.Chapter4StaticMediaTests.test_context_processor_addition Coverage Results" MODIFIED="1705692066939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -443,6 +461,9 @@
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4IndexPageTests.coverage" NAME="Test: rango.tests_chapter4.Chapter4IndexPageTests Coverage Results" MODIFIED="1706034480827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4ExerciseTests_test_about_contains_cat.coverage" NAME="Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_contains_cat Coverage Results" MODIFIED="1706034647758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter5_Chapter5DatabaseConfigurationTests.coverage" NAME="Test: rango.tests_chapter5.Chapter5DatabaseConfigurationTests Coverage Results" MODIFIED="1706278146584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6IndexViewTests_test_index_response_titles.coverage" NAME="Test: rango.tests_chapter6.Chapter6IndexViewTests.test_index_response_titles Coverage Results" MODIFIED="1706288088958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6NoItemsIndexViewTests.coverage" NAME="Test: rango.tests_chapter6.Chapter6NoItemsIndexViewTests Coverage Results" MODIFIED="1706290399364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6PopulationScriptTest_test_page_objects_have_views.coverage" NAME="Test: rango.tests_chapter6.Chapter6PopulationScriptTest.test_page_objects_have_views Coverage Results" MODIFIED="1706287968003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter3_Chapter3ProjectStructureTests_test_project_created.coverage" NAME="Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_project_created Coverage Results" MODIFIED="1705689567158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4ExerciseTests_test_about_template_exists.coverage" NAME="Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_template_exists Coverage Results" MODIFIED="1705693576485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4ExerciseTests.coverage" NAME="Test: rango.tests_chapter4.Chapter4ExerciseTests Coverage Results" MODIFIED="1706034724217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -451,6 +472,8 @@
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4ExerciseTests_test_about_uses_template.coverage" NAME="Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_uses_template Coverage Results" MODIFIED="1705693587607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4TemplatesStructureTests_test_template_dir_setting.coverage" NAME="Test: rango.tests_chapter4.Chapter4TemplatesStructureTests.test_template_dir_setting Coverage Results" MODIFIED="1705691978926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4ExerciseTests_test_about_starts_with_doctype.coverage" NAME="Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_starts_with_doctype Coverage Results" MODIFIED="1705693592060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6PopulationScriptTest.coverage" NAME="Test: rango.tests_chapter6.Chapter6PopulationScriptTest Coverage Results" MODIFIED="1706290387472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6IndexViewTests.coverage" NAME="Test: rango.tests_chapter6.Chapter6IndexViewTests Coverage Results" MODIFIED="1706290392767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter3_Chapter3ProjectStructureTests_test_rango_has_urls_module.coverage" NAME="Test: rango.tests_chapter3.Chapter3ProjectStructureTests.test_rango_has_urls_module Coverage Results" MODIFIED="1705689588571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4_Chapter4ExerciseTests_test_about_contains_required_text.coverage" NAME="Test: rango.tests_chapter4.Chapter4ExerciseTests.test_about_contains_required_text Coverage Results" MODIFIED="1706032987185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter3_Chapter3IndexPageTests_test_mappings_exists.coverage" NAME="Test: rango.tests_chapter3.Chapter3IndexPageTests.test_mappings_exists Coverage Results" MODIFIED="1705689929073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
