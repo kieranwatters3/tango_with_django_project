@@ -6,6 +6,7 @@ from rango.forms import CategoryForm, PageForm
 from django.shortcuts import redirect
 from django.urls import reverse
 
+
 # Create your views here.
 def index(request):
 
@@ -20,7 +21,9 @@ def index(request):
 
 
 def about(request):
-    return render(request, "rango/about.html")
+    print(request.method)
+    print(request.user)
+    return render(request,'rango/about.html',{})
 
 
 def show_category(request, category_name_slug):
@@ -54,7 +57,9 @@ def add_category(request):
 def add_page(request, category_name_slug):
     try:
         category = Category.objects.get(slug=category_name_slug)
+        print(category)
     except Category.DoesNotExist:
+        print("Category does not exist")
         category = None
 
     if category is None:
@@ -68,6 +73,7 @@ def add_page(request, category_name_slug):
         if form.is_valid():
             print("valid")
             if category:
+                print("Were in")
                 page = form.save(commit=False)
                 page.category = category
                 page.views = 0

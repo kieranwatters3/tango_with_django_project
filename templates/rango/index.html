@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+{% extends 'rango/base.html'%}
+{% load staticfiles%}
 
-{% load staticfiles %}
-
-<html lang = "en">
-
-    <head>
-        <title>Rango</title>
-    </head>
+    <title>
+        {% block title_block %}
+            Homepage
+        {% endblock %}
+    </title>
 
     <body>
+    {%block body_block%}
         <h1>Rango says...</h1>
         <div>
             hey there partner! <br />
@@ -36,7 +36,6 @@
                 <ul>
                     {% for page in pages %}
                         <li> <a href = "{{page.url}}"> {{page.title}} </a> </li>
-                        <li> <a href = "http://flask.pocoo.org"> Flask </a>  </li>    
                     {% endfor %}
                 </ul>
             {% else %}
@@ -45,11 +44,10 @@
         </div>
 
         <div>
-            <a href="/rango/about/">About</a><br />
-            <a href="/rango/add_category/">Add a New Category</a><br />
             <img src = "{% static 'images/rango.jpg'%}"
                  alt="Picture of Rango" />"
         </div>
+    {%endblock%}
     </body>
 
 </html>
